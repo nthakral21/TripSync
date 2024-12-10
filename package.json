@@ -1,0 +1,21 @@
+{
+  "name": "tripsync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "cd client && npm install --force",
+    "start": "node server/index.js",
+    "install-server": "cd server && npm install --force",
+    "install-all": "npm run install-client && npm run install-server",
+    "build": "npm run install-all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "path": "^0.12.7",
+    "react-google-maps": "^9.4.5"
+  }
+}
